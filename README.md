@@ -9,6 +9,7 @@ Given a Date it renders:
 - A row of weekday headings.
 - A grid of days for that month, aligned to weekdays.
 - The supplied date cell highlighted.
+- The Calendar component validates the prop and shows "Invalid date provided." if `date` is missing or not a Date instance.
 
 ## Project structure
 - src/
@@ -52,16 +53,3 @@ function App() {
   return <Calendar date={new Date('2022-10-03')} />;
 }
 ```
-
-## Notes
-- The Calendar component validates the prop and shows "Invalid date provided." if `date` is missing or not a Date instance.
-- Ensure any CSS referenced from public/index.html matches the actual stylesheet path (src/components/calendar.css).
-- Tests (if present) live under src/__tests__/ — run them with your configured test runner.
-
-## Contribution / Improvements
-- Add PropTypes or TypeScript types for stronger validation.
-- Add unit tests with react-testing-library to verify layout and highlighting.
-- Add navigation (prev/next month) and keyboard accessibility if needed.
-
-LICENSE
-- See package.json for license information (if any).
