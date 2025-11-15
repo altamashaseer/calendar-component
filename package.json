@@ -1,0 +1,22 @@
+{
+  "name": "calendar-component",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^13.0.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^4.0.0",
+    "vite-plugin-react": "^3.0.0"
+  }
+}
