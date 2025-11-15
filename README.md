@@ -53,3 +53,7 @@ function App() {
   return <Calendar date={new Date('2022-10-03')} />;
 }
 ```
+
+
+<img width="467" height="551" alt="image" src="https://github.com/user-attachments/assets/3c5cf59c-117d-4887-819d-fd690655eb96" />
+
